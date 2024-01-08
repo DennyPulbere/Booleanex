@@ -1,0 +1,76 @@
+body{
+    background-image: url(img/background.jpg) ;
+    background-size: cover;
+    color: white;
+}
+
+.contanier{
+    border-radius: 10px;
+    margin: auto;
+    width: 800px;
+    height: 580px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+header, nav {
+    text-align: center;
+}
+
+img{
+    padding-top: 70px;
+    width: 200px;
+}
+
+.title{
+    color: lime;
+    font-size: 36px;
+}
+
+nav{
+    margin: auto;
+    background-color: lime;
+    padding: 11px;
+    width: 80%;
+}
+
+.contenuto{
+    margin-left: 60px;
+}
+
+input{
+    display: inline-block;
+}
+
+div.sottotitolo{
+    display: inline-block;
+    font-size: 20px;
+}
+
+p{
+    margin: 0px;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.cliente{
+    padding: 8px;
+}
+
+div.stato1{
+    background-color: rgb(224, 176, 85);
+    padding: 13px;
+    width: 34%;
+    border-radius: 4px;
+}
+div.stato2{
+    background-color: lightgreen;
+    padding: 13px;
+    width: 56%;
+    border-radius: 4px;
+}
+div.stato3{
+    background-color: lightcoral;
+    padding: 13px;
+    width: 14%;
+    border-radius: 4px;
+}
